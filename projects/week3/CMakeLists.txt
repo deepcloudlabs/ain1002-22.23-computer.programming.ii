@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.24)
+project(exercise01)
+project(exercise02)
+project(exercise03)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(exercise01 exercise01.cpp)
+add_executable(exercise02 exercise02.cpp)
+add_executable(exercise03 exercise03.cpp)
